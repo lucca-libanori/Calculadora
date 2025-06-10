@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script src="script.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.8.0/math.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="calculadora">
+            <input type="text" class="result" id="tela" size="12" readonly>
+            <div class="teclado">
+                <button class="btn" id="v7" onclick="inserir('7')">7</button>
+                <button class="btn" id="v8" onclick="inserir('8')">8</button>
+                <button class="btn" id="v9" onclick="inserir('9')">9</button>
+                <button class="bto" id="v11" onclick="inserir('/')">/</button>
+
+                <button class="btn" id="v4" onclick="inserir('4')">4</button>
+                <button class="btn" id="v5" onclick="inserir('5')">5</button>
+                <button class="btn" id="v6" onclick="inserir('6')">6</button>
+                <button class="bto" id="v12" onclick="inserir('*')">*</button>
+
+                <button class="btn" id="v1" onclick="inserir('1')">1</button>
+                <button class="btn" id="v2" onclick="inserir('2')">2</button>
+                <button class="btn" id="v3" onclick="inserir('3')">3</button>
+                <button class="bto" id="v13" onclick="inserir('-')">-</button>
+
+                <button class="btn" id="v0" onclick="inserir('0')">0</button>
+                <button class="btca" id="v10" onclick="inserir('CA')">CA</button>
+                <button class="bto" id="v15" onclick="calcular()">=</button>
+                <button class="bto" id="v14" onclick="inserir('+')">+</button>
+            </div>
+        </div>
+    </body>
+</html>
